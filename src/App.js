@@ -1,5 +1,5 @@
 import './App.css';
-import data from './data'
+import data from './allCountryScores'
 console.log(data)
 function App() {
   return (
