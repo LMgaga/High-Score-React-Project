@@ -1,15 +1,10 @@
-import './App.css';
-import data from './allCountryScores'
-console.log(data)
+import "./App.css";
+import HighScoreTable from "./HighScoreTable";
+
 function App() {
   return (
     <div className="App">
-     {data.map((el, index) => (
-      <div key = {index}>
-        {el.name}
-      </div>
-     ))}
-      
+      <HighScoreTable />
     </div>
   );
 }
